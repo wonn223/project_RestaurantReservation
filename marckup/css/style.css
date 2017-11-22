@@ -14,7 +14,7 @@ body{
 
 .main-photo{
   height: 285px;
-  background: black;
+  background: yellow;
   background-image: url("/images/mainphoto.jpg");
   /* 테두리 제거 */
 }
@@ -27,7 +27,9 @@ body{
 .content-card{
   width: 270px;
   height: 220px;
+  margin: 15px 0 15px 0;
   background-color: red;
+  border: 10px solid black;
   /* 위치를 조정해야함  */
   /* position: relative; */
   /* left: 40px;   */
@@ -37,7 +39,9 @@ body{
   background: black;
   color:white;
   height: 80px;
-  margin-top: 15px;
+}
+.content-card{
+  padding: 15px;
 }
 .content-photo{
   background-image: url("/images/contentphoto.png");
