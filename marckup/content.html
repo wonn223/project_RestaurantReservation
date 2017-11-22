@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- 합쳐지고 최소화된 최신 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <!-- 부가적인 테마 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 header">
+        <a>LOGO</a>
+      </div>
+    </div>
+  <div class="row content-photo">
+    <div class="col-md-12"> 
+    </div>
+  </div>
+  <div class="row content-title">
+    <div class="col-md-12">식당명 / 좋아요,즐겨찾기버튼 / 평가이동
+    </div>
+  </div>
+  <div class="row content-select">
+    <div class="col-md-1">1</div>
+    <div class="col-md-2">2</div>
+    <div class="col-md-3">3</div>
+    <div class="col-md-3">4</div>
+    <div class="col-md-2">5</div>
+    <div class="col-md-1">6</div>
+  </div>
+  <div class="row content-intro">
+    <div class="col-md-12">11adsfkdsjflksdjflksdjflksdjflksjdklfjsdklfjsklfjsdlkfjsdlkfjkdsjflksdjflksdjfklsfjklas</div>
+  </div>
+  <div class="row content-addinfo">
+    <div class="col-md-1">1</div>
+    <div class="col-md-5 info-image">이미지영역</div>
+    <div class="col-md-5 info-menu">메뉴판영역</div>
+    <div class="col-md-1">6</div>
+  </div>
+  <div class="row content-map">
+    <div class="col-md-1">1</div>
+    <div class="col-md-10">
+      <div id="map" style="width:80%;height:300px;"></div>
+    </div>
+    <div class="col-md-1">6</div>
+  </div>
+    <div class="row content-social">
+      <div class="col-md-12">평점. 댓글</div>
+    </div>
+  </div>
+
+</body>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=44cde980f6ef7d187574c408a1e479f0"></script>
+<script>
+  var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+    mapOption = {
+      center: new daum.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+      level: 3 // 지도의 확대 레벨
+    };
+
+  // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+  var map = new daum.maps.Map(mapContainer, mapOption); 
+</script>
+</html>
