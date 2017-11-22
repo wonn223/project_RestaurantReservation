@@ -81,10 +81,18 @@ body{
 
 .content-map{
   background: red;
-  height: 560px;
+  min-height: 400px;
 }
 
 .content-social{
   background: pink;
   min-height: 300px;
+}
+.map{
+  position: relative;
+  top: 10px;
+}
+.findload{
+  position: relative;
+  top: 15px;
 }
